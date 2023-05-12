@@ -8,3 +8,8 @@ This project tries to determine trends in homelessness in cities around America 
 Data was gathered from the U.S. Department of Housing and Urban Development, or HUD. It was originally from a HUD report made in 2019 about predictors of Homelessness, which can be found here: https://www.huduser.gov/portal/sites/default/files/pdf/Market-Predictors-of-Homelessness.pdf
 
 The data was extracted with help from Dr. Brian Fischer. It can be located at /data/05b_analysis_file_update.csv. A description file is located at /data/HUD TO3 - 05b Analysis File - Data - Dictionary.csv.
+
+# Data Preparation
+Data was prepared by subselecting a specific year of the data and taking out null values.
+
+The data preparation was done using the file /Data_prep/Homelessness_Data_Preparation.ipynb. The cleaned data file is located at /Data_prep/homelessness_clean.csv.
