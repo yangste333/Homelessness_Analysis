@@ -10,6 +10,6 @@ Data was gathered from the U.S. Department of Housing and Urban Development, or 
 The data was extracted with help from Dr. Brian Fischer. It can be located at /data/05b_analysis_file_update.csv. A description file is located at /data/HUD TO3 - 05b Analysis File - Data - Dictionary.csv.
 
 # Data Preparation
-Data was prepared by subselecting a specific year of the data and taking out null values.
+Data was prepared by subselecting a specific year of the data and taking out additional null values.
 
 The data preparation was done using the file /Data_prep/Homelessness_Data_Preparation.ipynb. The cleaned data file is located at /Data_prep/homelessness_clean.csv.
